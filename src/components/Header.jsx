@@ -1,5 +1,6 @@
 import "./Header.css"
 import Logo from "./Logo"
+import SearchBar from "./SearchBar"
 
 function Header() {
 	return (
@@ -8,9 +9,8 @@ function Header() {
 				id="header"
 				className="header fixed-top d-flex aling-items-center"
 			>
-				{/* logo */}
 				<Logo />
-				{/* search */}
+				<SearchBar />
 				{/* nav */}
 			</header>
 		</>

@@ -1,5 +1,7 @@
 import "./Logo.css"
 function Logo() {
+	// function for the icon to toggle the sidebar
+
 	function handleToggleSidebar() {
 		document.body.classList.toggle("toggle-sedebar")
 	}
