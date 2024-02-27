@@ -1,5 +1,9 @@
 import "./Logo.css"
 function Logo() {
+	function handleToggleSidebar() {
+		document.body.classList.toggle("toggle-sedebar")
+	}
+
 	return (
 		<div className="d-flex align-items-center justify-content-between">
 			<a href="/" className="logo d-flex alighn-items-center">
